@@ -1,0 +1,1 @@
+export { MaxiPagoConfig } from './config';

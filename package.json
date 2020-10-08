@@ -1,0 +1,43 @@
+{
+  "name": "maxipago-sdk-js",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "email": "sousadeusimar2@gmail.com",
+    "name": "Deusimar de Sousa",
+    "url": "https://github.com/deusimardamiao"
+  },
+  "description": "This is a implementation for handle requests to MaxiPago API",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "lint-staged": "10.2.10",
+    "prettier": "^2.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
