@@ -14,7 +14,10 @@
     "build": "tsc"
   },
   "dependencies": {
-    "axios": "^0.20.0"
+    "@types/xml2js": "^0.4.5",
+    "axios": "^0.20.0",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",

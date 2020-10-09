@@ -1,1 +1,13 @@
-export { MaxiPagoConfig } from './config';
+export { MaxiPagoAuth } from './auth';
+export { CommomRequest, TransactionRequest } from './commom-request';
+export { Customer } from './customer';
+export { CreateCard, DeleteCard } from './card';
+export { Order } from './order';
+export { OrderCapture } from './order-capture';
+export { Void } from './void';
+export { ChargebackModel } from './chargeback';
+export { DeleteRecurrence, Recurrence } from './recurrence';
+export { TransactionQuery } from './transaction-query';
+export { ZeroDollar } from './zero-dollar';
+export { ZeroDollarToken } from './zero-dollar-token';
+export { SaleWithToken } from './sale-token';
