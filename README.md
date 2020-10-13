@@ -15,7 +15,7 @@ npm install maxipago-sdk-js
 ## :heavy_check_mark: Como usar
 
 ```typescript
-import { MaxiPagoSDK } from 'maxipago-gateway';
+import { MaxiPagoSDK } from 'maxipago-sdk-js';
 
 const maxipago = MaxiPagoSDK(
   { merchantId: 'your merchantId', merchantKey: 'your merchantKey' },
