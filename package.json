@@ -4,12 +4,23 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
+  "keywords": [
+    "maxipago",
+    "sdk",
+    "gateway",
+    "payment"
+  ],
+  "homepage": "https://github.com/deusimardamiao/maxipago-sdk-nodejs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deusimardamiao/maxipago-sdk-nodejs.git"
+  },
   "author": {
     "email": "sousadeusimar2@gmail.com",
     "name": "Deusimar de Sousa",
     "url": "https://github.com/deusimardamiao"
   },
-  "description": "This is a implementation for handle requests to MaxiPago API",
+  "description": "SDK Node.js for maxiPago! gateway",
   "scripts": {
     "build": "tsc"
   },
