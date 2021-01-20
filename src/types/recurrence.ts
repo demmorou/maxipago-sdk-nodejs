@@ -1,5 +1,5 @@
 export interface DeleteRecurrence {
-  OrderID: string;
+  orderID: string;
 }
 
 export interface Recurrence {
